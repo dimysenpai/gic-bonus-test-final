@@ -5,10 +5,12 @@ import logoText from "../assets/imgs/logo/GIC_BONUS_TEXT.png";
 const Header = () => {
   return (
     <header>
-      <div className="logoContent">
-        <img className="logo" src={logo} alt="logo" />
-        <img className="logoText" src={logoText} alt="logo" />
-      </div>
+      <Link href="/">
+        <div className="logoContent">
+          <img className="logo" src={logo} alt="logo" />
+          <img className="logoText" src={logoText} alt="logo" />
+        </div>
+      </Link>
       <div className="btnContent">
         <Link to="/">Accueil</Link>
         <Link to="/service">Services</Link>
