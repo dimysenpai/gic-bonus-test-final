@@ -1,0 +1,70 @@
+.serviceList {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+
+  .service-desc {
+    width: 40%;
+    text-align: center;
+  }
+
+  .card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 50px;
+
+    .card {
+      background-color: $white;
+      border-radius: 10px;
+      transition: all 0.4s;
+      border: 1px solid $primary;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+
+      &:hover {
+        box-shadow: 5px 5px 10px -6px $black;
+      }
+
+      .card-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+
+      .card-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+
+        p {
+          text-align: center;
+        }
+
+        button {
+          @extend %btn;
+        }
+      }
+    }
+  }
+}

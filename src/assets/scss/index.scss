@@ -7,11 +7,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 5%;
-}
-
 @import "_variable";
+@import "_placeholder";
 @import "_header";
+@import "_herotop";
+@import "_servicelist";
