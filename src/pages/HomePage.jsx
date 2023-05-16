@@ -1,6 +1,6 @@
 import HeroTop from "../components/HeroTop";
 import TrainingList from "../components/TrainingList";
-import ServiceList from "../components/serviceList";
+import ServiceList from "../components/ServiceList";
 
 function HomePage() {
   return (
