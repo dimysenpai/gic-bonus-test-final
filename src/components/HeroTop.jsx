@@ -1,17 +1,17 @@
-import illust from "../assets/imgs/avataaars.png";
+import heroImg from "../assets/imgs/hero-img.png";
 
 function HeroTop() {
   return (
     <div className="herotop">
       <div className="right">
-        <img src={illust} alt="illust" />
-      </div>
-      <div className="left">
         <h1>GIC BONUS</h1>
         <p>
-          Pour l'imposible nous réfléchissons pour le plus difficile nous le
+          Pour l'imposible nous réfléchissons, pour le plus difficile nous le
           réalisons.
         </p>
+      </div>
+      <div className="left">
+        <img src={heroImg} alt="hero img" />
       </div>
     </div>
   );

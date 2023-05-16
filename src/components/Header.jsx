@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/imgs/logo/GIC_BONUS_LOGO.png";
-import logoText from "../assets/imgs/logo/GIC_BONUS_TEXT.png";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <Link href="/">
         <div className="logoContent">
-          <img className="logo" src={logo} alt="logo" />
-          <img className="logoText" src={logoText} alt="logo" />
+          <span>Gic Bonus</span>
         </div>
       </Link>
       <div className="btnContent">

@@ -1,69 +1,46 @@
 .serviceList {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 50px;
-
-  .service-desc {
-    width: 40%;
-    text-align: center;
-  }
+  @extend %sectionTitle;
+  background-color: $gray;
 
   .card-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    margin: 50px;
+    @extend %cardContent;
 
     .card {
-      background-color: $white;
-      border-radius: 10px;
-      transition: all 0.4s;
-      border: 1px solid $primary;
-      cursor: pointer;
+      width: 300px;
+      height: fit-content;
+      background: $white;
+      margin: 10px;
+      box-shadow: 0px 0 25px 0 $shadow;
       display: flex;
-      justify-content: center;
       flex-direction: column;
-      align-items: center;
-      overflow: hidden;
+      align-items: flex-start;
+      justify-content: center;
+      transition: all 0.4s;
 
       &:hover {
-        box-shadow: 5px 5px 10px -6px $black;
-      }
+        transform: translateY(-10px);
 
-      .card-img {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        height: 100%;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-          height: fit-content;
+        a {
+          color: $secondary;
         }
       }
 
-      .card-description {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        padding: 10px;
+      .icon {
+        font-size: 40pt;
+        margin: 15px;
+        color: $secondary;
+      }
 
-        p {
-          text-align: center;
-        }
+      a {
+        margin-left: 15px;
+        font-size: 17pt;
+        font-weight: 500;
+        color: $primary;
+        transition: all 0.4s;
+      }
 
-        button {
-          @extend %btn;
-        }
+      p {
+        margin: 16px;
       }
     }
   }

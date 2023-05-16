@@ -1,90 +1,59 @@
-import img from "../assets/imgs/1040737.png";
-
 function ServiceList() {
   return (
     <div className="serviceList">
-      <h1>Lorem ipsum dolor sit.</h1>
-      <p className="service-desc">
+      <h1>Services</h1>
+      <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
         fugiat?
       </p>
       <div className="card-content">
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
+          <i className="icon fa fa-user"></i>
+          <a href="">Lorem, ipsum dolor.</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+            aliquid.
+          </p>
         </div>
       </div>
     </div>

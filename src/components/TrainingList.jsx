@@ -1,87 +1,48 @@
-import img from "../assets/imgs/1040737.png";
-
 function TrainingList() {
   return (
-    <div className="serviceList">
-      <h1>Lorem ipsum dolor sit.</h1>
-      <p className="service-desc">
+    <div className="trainingList">
+      <h1>Formations</h1>
+      <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
         fugiat?
       </p>
       <div className="card-content">
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
+          <div>
+            <h1>Infographie</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+              ea!
             </p>
             <button>Voir Plus</button>
           </div>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
+          <div>
+            <h1>Programmation Web</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+              ea!
             </p>
             <button>Voir Plus</button>
           </div>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
+          <div>
+            <h1>Lorem, ipsum.</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+              ea!
             </p>
             <button>Voir Plus</button>
           </div>
         </div>
-
         <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
+          <div>
+            <h1>Lorem, ipsum.</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
-            </p>
-            <button>Voir Plus</button>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card-img">
-            <img src={img} alt="img" />
-          </div>
-          <div className="card-description">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-              dolorem!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+              ea!
             </p>
             <button>Voir Plus</button>
           </div>
