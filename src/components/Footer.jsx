@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -21,19 +23,16 @@ function Footer() {
           <h4>Useful Links</h4>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Accueil</Link>
             </li>
             <li>
-              <a href="#">About us</a>
+              <Link to="/service">Services</Link>
             </li>
             <li>
-              <a href="#">Services</a>
+              <Link to="/training">Formations</Link>
             </li>
             <li>
-              <a href="#">Terms of service</a>
-            </li>
-            <li>
-              <a href="#">Privacy policy</a>
+              <Link to="/about">A Propos</Link>
             </li>
           </ul>
         </div>
@@ -45,7 +44,7 @@ function Footer() {
               <a href="#">Web Design</a>
             </li>
             <li>
-              <a href="#">Web Development</a>
+              <a href="#">Developpement Web</a>
             </li>
             <li>
               <a href="#">Product Management</a>
@@ -54,32 +53,32 @@ function Footer() {
               <a href="#">Marketing</a>
             </li>
             <li>
-              <a href="#">Graphic Design</a>
+              <a href="#">Design Graphique</a>
             </li>
           </ul>
         </div>
 
         <div className="links">
-          <h4>Our Social Networks</h4>
+          <h4>Réseaux Social</h4>
           <p>
             Cras fermentum odio eu feugiat lide par naso tierra videa magna
             derita valies
           </p>
           <div className="social-links">
             <a href="#" className="twitter">
-              <i className="fal fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </a>
             <a href="#" className="facebook">
-              <i className="fal fa-facebook"></i>
+              <i className="fa-brands fa-facebook"></i>
             </a>
             <a href="#" className="instagram">
-              <i className="fal fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
             <a href="#" className="google-plus">
-              <i className="fal fa-skype"></i>
+              <i className="fa-brands fa-skype"></i>
             </a>
             <a href="#" className="linkedin">
-              <i className="fal fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
         </div>
